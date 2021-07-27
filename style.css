@@ -15,6 +15,8 @@ body {
     /* margin: 0 auto; */
 }
 
+/* Navbar */
+
 nav {
     position: fixed;
     top: 0;
@@ -72,6 +74,8 @@ nav {
 
 }
 
+/* Main content */
+
 .main {
     padding-left: 300px;
     padding-right: 300px;
@@ -87,7 +91,7 @@ nav {
 }
 
 .right {
-    position: fixed;
+    position: fixed;    
     right: 100px;
 }
 
@@ -112,6 +116,9 @@ nav {
     text-align: center;
     margin: 0;
     padding: 0;
+    max-height: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .story img {
@@ -154,10 +161,6 @@ nav {
     font-size: 15px;
     color: rgb(40, 159, 228);
     cursor: pointer;
-}
-
-.posts {
-    /* margin-top: 10px; */
 }
 
 .post {
@@ -263,6 +266,8 @@ nav {
     color: rgb(40, 159, 228);
 }
 
+/* Responsiveness */
+
 @media (max-width: 1296px) {
     .right {
         right: 30px;
@@ -299,10 +304,6 @@ nav {
     .search {
         display: none;
     }
-
-    .left {
-        /* margin-right: 100px; */
-    }
 }
 
 @media (max-width: 542px) {
@@ -313,13 +314,7 @@ nav {
 
     .left {
         width: 100%;
-    }
-
-
-    .left {
-        /* width: 40%; */
-    }
-    
+    }    
 }
 
 @media (max-width: 427px) {
