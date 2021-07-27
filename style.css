@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(247, 247, 247);
+    color: black;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    color: black;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(155, 155, 155, 0.418);
+}
+
+.search i {
+    color: rgba(114, 114, 114, 0.842);
+}
+
+.search input {
+    border: none;
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
+
+.menus {
+    display: flex;
+}
+
+.menus a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    margin-left: 12px;
+    font-size: 22px;
+}
+
+.message {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    background-color: crimson;
+    color: white;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50px;
+    top: 0;
+    left: 6px;
+}
+
+.main {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 60px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.right {
+    position: fixed;
+    right: 100px;
+}
+
+.stories {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border: 1px solid rgba(187, 187, 187, 0.664);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.story {
+    padding: 10px;
+}
+
+.story h5 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.story img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid crimson;
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.664);
+}
+
+.profile img {
+    border: none;
+
+}
+
+.profile .username {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.username p {
+    font-size: 15px;
+}
+
+.username .light {
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.profile .switch {
+    padding-left: 15px;
+    font-size: 15px;
+    color: rgb(40, 159, 228);
+    cursor: pointer;
+}
+
+.posts {
+    /* margin-top: 10px; */
+}
+
+.post {
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 4px;
+}
+
+.upper {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ico {
+    cursor: pointer;
+}
+
+.place small {
+    float: left;
+    font-size: 12px;
+    color: rgb(104, 104, 104);
+}
+
+.user img {
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.bottom i {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.botleft {
+    display: flex;
+}
+
+.likes {
+    /* position: absolute; */
+    width: fit-content;
+    padding-top: 6px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.comments {
+    width: fit-content;
+    margin-left: 10px;
+    display: flex;
+    padding-bottom: 4px;
+}
+
+.name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.postedon {
+    width: fit-content;
+    margin-left: 10px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.addcomment {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.addcomment input {
+    border: none;
+}
+
+.post a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(40, 159, 228);
+}
