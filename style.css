@@ -67,6 +67,11 @@ nav {
     left: 6px;
 }
 
+.user a i img {
+    width: 30px;
+
+}
+
 .main {
     padding-left: 300px;
     padding-right: 300px;
