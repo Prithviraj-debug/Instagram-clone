@@ -326,6 +326,9 @@ nav {
 
     .story h5 {
         font-size: 10px;
+        max-height: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .story img {
