@@ -11,7 +11,7 @@ body {
 
 .container {
     text-align: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 nav {
@@ -76,7 +76,7 @@ nav {
 }
 
 .left {
-    width: 600px;
+    width: 80%;
     margin-bottom: 10px;
 }
 
@@ -255,4 +255,87 @@ nav {
     margin-right: 10px;
     text-decoration: none;
     color: rgb(40, 159, 228);
+}
+
+@media (max-width: 1296px) {
+    .right {
+        right: 30px;
+    }
+}
+
+@media (max-width: 1266px) {
+    .right {
+        display: none;
+    }
+
+    nav {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .main {
+        padding: 0;
+        padding-top: 60px;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .left {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 710px) {
+    .search {
+        display: none;
+    }
+
+    .left {
+        /* margin-right: 100px; */
+    }
+}
+
+@media (max-width: 542px) {
+    nav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+
+    .left {
+        /* width: 40%; */
+    }
+    
+}
+
+@media (max-width: 427px) {
+
+    .story h5 {
+        font-size: 10px;
+    }
+
+    .story img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .story h5 {
+        font-size: 10px;
+    }
+
+    .story img {
+        width: 40px;
+        height: 40px;
+    }
 }
